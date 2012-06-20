@@ -18,6 +18,7 @@
 		92AF73DF1591B359004011C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF73BC1591B358004011C7 /* Cocoa.framework */; };
 		92AF73E71591B359004011C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92AF73E51591B359004011C7 /* InfoPlist.strings */; };
 		92AF73EA1591B359004011C7 /* Your_New_PasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF73E91591B359004011C7 /* Your_New_PasswordTests.m */; };
+		92AF73F51591B5F7004011C7 /* YNPPasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF73F41591B5F7004011C7 /* YNPPasswordController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,23 @@
 		92AF73BF1591B358004011C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		92AF73C01591B358004011C7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		92AF73C11591B358004011C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		92AF73C41591B358004011C7 /* Your New Password-Info.plist */ = {isa = PBXFileReference; path = "Your New Password-Info.plist"; sourceTree = "<group>"; };
+		92AF73C41591B358004011C7 /* Your New Password-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Your New Password-Info.plist"; sourceTree = "<group>"; };
 		92AF73C61591B358004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92AF73C81591B358004011C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		92AF73CA1591B358004011C7 /* Your New Password-Prefix.pch */ = {isa = PBXFileReference; path = "Your New Password-Prefix.pch"; sourceTree = "<group>"; };
+		92AF73CA1591B358004011C7 /* Your New Password-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Your New Password-Prefix.pch"; sourceTree = "<group>"; };
 		92AF73CC1591B358004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		92AF73CE1591B358004011C7 /* YNPAppDelegate.h */ = {isa = PBXFileReference; path = YNPAppDelegate.h; sourceTree = "<group>"; };
+		92AF73CE1591B358004011C7 /* YNPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YNPAppDelegate.h; sourceTree = "<group>"; };
 		92AF73CF1591B358004011C7 /* YNPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNPAppDelegate.m; sourceTree = "<group>"; };
 		92AF73D21591B358004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		92AF73D51591B358004011C7 /* Your_New_Password.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Your_New_Password.xcdatamodel; sourceTree = "<group>"; };
 		92AF73DC1591B359004011C7 /* Your New PasswordTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Your New PasswordTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92AF73DD1591B359004011C7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		92AF73E41591B359004011C7 /* Your New PasswordTests-Info.plist */ = {isa = PBXFileReference; path = "Your New PasswordTests-Info.plist"; sourceTree = "<group>"; };
+		92AF73E41591B359004011C7 /* Your New PasswordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Your New PasswordTests-Info.plist"; sourceTree = "<group>"; };
 		92AF73E61591B359004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		92AF73E81591B359004011C7 /* Your_New_PasswordTests.h */ = {isa = PBXFileReference; path = Your_New_PasswordTests.h; sourceTree = "<group>"; };
+		92AF73E81591B359004011C7 /* Your_New_PasswordTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Your_New_PasswordTests.h; sourceTree = "<group>"; };
 		92AF73E91591B359004011C7 /* Your_New_PasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Your_New_PasswordTests.m; sourceTree = "<group>"; };
+		92AF73F31591B5F7004011C7 /* YNPPasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNPPasswordController.h; sourceTree = "<group>"; };
+		92AF73F41591B5F7004011C7 /* YNPPasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNPPasswordController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				92AF73CE1591B358004011C7 /* YNPAppDelegate.h */,
 				92AF73CF1591B358004011C7 /* YNPAppDelegate.m */,
 				92AF73D11591B358004011C7 /* MainMenu.xib */,
+				92AF73F31591B5F7004011C7 /* YNPPasswordController.h */,
+				92AF73F41591B5F7004011C7 /* YNPPasswordController.m */,
 				92AF73D41591B358004011C7 /* Your_New_Password.xcdatamodeld */,
 				92AF73C31591B358004011C7 /* Supporting Files */,
 			);
@@ -268,6 +273,7 @@
 				92AF73C91591B358004011C7 /* main.m in Sources */,
 				92AF73D01591B358004011C7 /* YNPAppDelegate.m in Sources */,
 				92AF73D61591B358004011C7 /* Your_New_Password.xcdatamodeld in Sources */,
+				92AF73F51591B5F7004011C7 /* YNPPasswordController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
