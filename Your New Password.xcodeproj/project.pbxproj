@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92AF73BD1591B358004011C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF73BC1591B358004011C7 /* Cocoa.framework */; };
+		92AF73C71591B358004011C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92AF73C51591B358004011C7 /* InfoPlist.strings */; };
+		92AF73C91591B358004011C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF73C81591B358004011C7 /* main.m */; };
+		92AF73CD1591B358004011C7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 92AF73CB1591B358004011C7 /* Credits.rtf */; };
+		92AF73D01591B358004011C7 /* YNPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF73CF1591B358004011C7 /* YNPAppDelegate.m */; };
+		92AF73D31591B358004011C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92AF73D11591B358004011C7 /* MainMenu.xib */; };
+		92AF73D61591B358004011C7 /* Your_New_Password.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92AF73D41591B358004011C7 /* Your_New_Password.xcdatamodeld */; };
+		92AF73DE1591B359004011C7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF73DD1591B359004011C7 /* SenTestingKit.framework */; };
+		92AF73DF1591B359004011C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92AF73BC1591B358004011C7 /* Cocoa.framework */; };
+		92AF73E71591B359004011C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92AF73E51591B359004011C7 /* InfoPlist.strings */; };
+		92AF73EA1591B359004011C7 /* Your_New_PasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AF73E91591B359004011C7 /* Your_New_PasswordTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92AF73E01591B359004011C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92AF73AF1591B358004011C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92AF73B71591B358004011C7;
+			remoteInfo = "Your New Password";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92AF73B81591B358004011C7 /* Your New Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your New Password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AF73BC1591B358004011C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		92AF73BF1591B358004011C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		92AF73C01591B358004011C7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		92AF73C11591B358004011C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92AF73C41591B358004011C7 /* Your New Password-Info.plist */ = {isa = PBXFileReference; path = "Your New Password-Info.plist"; sourceTree = "<group>"; };
+		92AF73C61591B358004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92AF73C81591B358004011C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92AF73CA1591B358004011C7 /* Your New Password-Prefix.pch */ = {isa = PBXFileReference; path = "Your New Password-Prefix.pch"; sourceTree = "<group>"; };
+		92AF73CC1591B358004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		92AF73CE1591B358004011C7 /* YNPAppDelegate.h */ = {isa = PBXFileReference; path = YNPAppDelegate.h; sourceTree = "<group>"; };
+		92AF73CF1591B358004011C7 /* YNPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YNPAppDelegate.m; sourceTree = "<group>"; };
+		92AF73D21591B358004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		92AF73D51591B358004011C7 /* Your_New_Password.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Your_New_Password.xcdatamodel; sourceTree = "<group>"; };
+		92AF73DC1591B359004011C7 /* Your New PasswordTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Your New PasswordTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AF73DD1591B359004011C7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		92AF73E41591B359004011C7 /* Your New PasswordTests-Info.plist */ = {isa = PBXFileReference; path = "Your New PasswordTests-Info.plist"; sourceTree = "<group>"; };
+		92AF73E61591B359004011C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92AF73E81591B359004011C7 /* Your_New_PasswordTests.h */ = {isa = PBXFileReference; path = Your_New_PasswordTests.h; sourceTree = "<group>"; };
+		92AF73E91591B359004011C7 /* Your_New_PasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Your_New_PasswordTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AF73B51591B358004011C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF73BD1591B358004011C7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF73D81591B358004011C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF73DE1591B359004011C7 /* SenTestingKit.framework in Frameworks */,
+				92AF73DF1591B359004011C7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92AF73AD1591B358004011C7 = {
+			isa = PBXGroup;
+			children = (
+				92AF73C21591B358004011C7 /* Your New Password */,
+				92AF73E21591B359004011C7 /* Your New PasswordTests */,
+				92AF73BB1591B358004011C7 /* Frameworks */,
+				92AF73B91591B358004011C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92AF73B91591B358004011C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AF73B81591B358004011C7 /* Your New Password.app */,
+				92AF73DC1591B359004011C7 /* Your New PasswordTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AF73BB1591B358004011C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AF73BC1591B358004011C7 /* Cocoa.framework */,
+				92AF73DD1591B359004011C7 /* SenTestingKit.framework */,
+				92AF73BE1591B358004011C7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92AF73BE1591B358004011C7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AF73BF1591B358004011C7 /* AppKit.framework */,
+				92AF73C01591B358004011C7 /* CoreData.framework */,
+				92AF73C11591B358004011C7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		92AF73C21591B358004011C7 /* Your New Password */ = {
+			isa = PBXGroup;
+			children = (
+				92AF73CE1591B358004011C7 /* YNPAppDelegate.h */,
+				92AF73CF1591B358004011C7 /* YNPAppDelegate.m */,
+				92AF73D11591B358004011C7 /* MainMenu.xib */,
+				92AF73D41591B358004011C7 /* Your_New_Password.xcdatamodeld */,
+				92AF73C31591B358004011C7 /* Supporting Files */,
+			);
+			path = "Your New Password";
+			sourceTree = "<group>";
+		};
+		92AF73C31591B358004011C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92AF73C41591B358004011C7 /* Your New Password-Info.plist */,
+				92AF73C51591B358004011C7 /* InfoPlist.strings */,
+				92AF73C81591B358004011C7 /* main.m */,
+				92AF73CA1591B358004011C7 /* Your New Password-Prefix.pch */,
+				92AF73CB1591B358004011C7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92AF73E21591B359004011C7 /* Your New PasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				92AF73E81591B359004011C7 /* Your_New_PasswordTests.h */,
+				92AF73E91591B359004011C7 /* Your_New_PasswordTests.m */,
+				92AF73E31591B359004011C7 /* Supporting Files */,
+			);
+			path = "Your New PasswordTests";
+			sourceTree = "<group>";
+		};
+		92AF73E31591B359004011C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92AF73E41591B359004011C7 /* Your New PasswordTests-Info.plist */,
+				92AF73E51591B359004011C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AF73B71591B358004011C7 /* Your New Password */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AF73ED1591B359004011C7 /* Build configuration list for PBXNativeTarget "Your New Password" */;
+			buildPhases = (
+				92AF73B41591B358004011C7 /* Sources */,
+				92AF73B51591B358004011C7 /* Frameworks */,
+				92AF73B61591B358004011C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Your New Password";
+			productName = "Your New Password";
+			productReference = 92AF73B81591B358004011C7 /* Your New Password.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92AF73DB1591B358004011C7 /* Your New PasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AF73F01591B359004011C7 /* Build configuration list for PBXNativeTarget "Your New PasswordTests" */;
+			buildPhases = (
+				92AF73D71591B358004011C7 /* Sources */,
+				92AF73D81591B358004011C7 /* Frameworks */,
+				92AF73D91591B358004011C7 /* Resources */,
+				92AF73DA1591B358004011C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92AF73E11591B359004011C7 /* PBXTargetDependency */,
+			);
+			name = "Your New PasswordTests";
+			productName = "Your New PasswordTests";
+			productReference = 92AF73DC1591B359004011C7 /* Your New PasswordTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AF73AF1591B358004011C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YNP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = leafduo;
+			};
+			buildConfigurationList = 92AF73B21591B358004011C7 /* Build configuration list for PBXProject "Your New Password" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92AF73AD1591B358004011C7;
+			productRefGroup = 92AF73B91591B358004011C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AF73B71591B358004011C7 /* Your New Password */,
+				92AF73DB1591B358004011C7 /* Your New PasswordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AF73B61591B358004011C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF73C71591B358004011C7 /* InfoPlist.strings in Resources */,
+				92AF73CD1591B358004011C7 /* Credits.rtf in Resources */,
+				92AF73D31591B358004011C7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF73D91591B358004011C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF73E71591B359004011C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92AF73DA1591B358004011C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AF73B41591B358004011C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF73C91591B358004011C7 /* main.m in Sources */,
+				92AF73D01591B358004011C7 /* YNPAppDelegate.m in Sources */,
+				92AF73D61591B358004011C7 /* Your_New_Password.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AF73D71591B358004011C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AF73EA1591B359004011C7 /* Your_New_PasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92AF73E11591B359004011C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92AF73B71591B358004011C7 /* Your New Password */;
+			targetProxy = 92AF73E01591B359004011C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92AF73C51591B358004011C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF73C61591B358004011C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92AF73CB1591B358004011C7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF73CC1591B358004011C7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		92AF73D11591B358004011C7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF73D21591B358004011C7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		92AF73E51591B359004011C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AF73E61591B359004011C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AF73EB1591B359004011C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92AF73EC1591B359004011C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92AF73EE1591B359004011C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Your New Password/Your New Password-Prefix.pch";
+				INFOPLIST_FILE = "Your New Password/Your New Password-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92AF73EF1591B359004011C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Your New Password/Your New Password-Prefix.pch";
+				INFOPLIST_FILE = "Your New Password/Your New Password-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		92AF73F11591B359004011C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Your New Password.app/Contents/MacOS/Your New Password";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Your New Password/Your New Password-Prefix.pch";
+				INFOPLIST_FILE = "Your New PasswordTests/Your New PasswordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		92AF73F21591B359004011C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Your New Password.app/Contents/MacOS/Your New Password";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Your New Password/Your New Password-Prefix.pch";
+				INFOPLIST_FILE = "Your New PasswordTests/Your New PasswordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AF73B21591B358004011C7 /* Build configuration list for PBXProject "Your New Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF73EB1591B359004011C7 /* Debug */,
+				92AF73EC1591B359004011C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AF73ED1591B359004011C7 /* Build configuration list for PBXNativeTarget "Your New Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF73EE1591B359004011C7 /* Debug */,
+				92AF73EF1591B359004011C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92AF73F01591B359004011C7 /* Build configuration list for PBXNativeTarget "Your New PasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AF73F11591B359004011C7 /* Debug */,
+				92AF73F21591B359004011C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92AF73D41591B358004011C7 /* Your_New_Password.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92AF73D51591B358004011C7 /* Your_New_Password.xcdatamodel */,
+			);
+			currentVersion = 92AF73D51591B358004011C7 /* Your_New_Password.xcdatamodel */;
+			path = Your_New_Password.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92AF73AF1591B358004011C7 /* Project object */;
+}
